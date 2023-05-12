@@ -32,6 +32,7 @@ export class HeaderComponent implements OnInit {
   }
 
   switchLanguage(language: string) {
+    debugger;
     this.translate.use(language);
     if (language == 'en') {
       this.language = "English";
